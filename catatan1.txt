@@ -1,0 +1,17 @@
+git syntaxt:
+git branch nama_branch
+git checkout nama_branch //untuk pindah branch
+
+laravel syntax :
+php artisan serve,untuk menjalankan server (nodemon index dalam node)
+php artisan make:model nama_table -mcr ,//untuk membuat table ke migrations db melalui cmd (migrations)
+php artisan migrate,untuk membuat db,beserta attribute nya yang di buat di migrations
+
+syntax untuk copy file:
+cp [namafileYangdiCopy] [namaFileBaru yang berisi data copian]
+
+syntax untuk membuat APP_KEY
+php artisan key:generate
+
+syntax cmd untuk membuat controller baru:
+php artisan make:controller AuthController(nama controller nya)

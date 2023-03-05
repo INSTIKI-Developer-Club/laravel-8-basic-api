@@ -1,0 +1,5 @@
+syntax untuk copy file:
+cp [namafileYangdiCopy] [namaFileBaru yang berisi data copian]
+
+syntax untuk membuat APP_KEY
+php artisan key:generate
